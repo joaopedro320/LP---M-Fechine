@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /obrigado.html
+
+Sitemap: https://lp-fechine-marmores.vercel.app/sitemap.xml
