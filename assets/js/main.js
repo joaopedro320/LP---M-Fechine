@@ -33,8 +33,8 @@
 
   var semMovimento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* Parallax leve no vídeo do hero */
-  var moldura = document.querySelector('[data-parallax] video');
+  /* Parallax leve na imagem do hero */
+  var moldura = document.querySelector('[data-parallax] img');
   if (moldura && !semMovimento) {
     var tick = false;
     window.addEventListener('scroll', function () {

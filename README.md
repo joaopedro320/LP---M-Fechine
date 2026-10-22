@@ -29,8 +29,9 @@ Produto: Método Stones High Ticket. Contrato de 30/09/2026 a 30/03/2027 (renova
 ## Estrutura da página
 
 1. Topo fixo com logo, navegação e CTA
-2. Hero com vídeo real da fábrica (fachada, chapas em estoque, corte) e headline "Marmoraria de alto padrão perto de você, em Brasília"
+2. Hero com foto de projeto (cozinha planejada) e headline "Marmoraria de alto padrão perto de você, em Brasília"
 3. Faixa de fatos: +30 anos do fundador, prazo de 10 a 15 dias, fábrica própria automatizada, Pix/cartão/dinheiro
+3.1. Parceiros: construtoras de Brasília (por enquanto em texto; trocar pelos logos quando chegarem os arquivos)
 4. Abas por público: Sua casa, Arquitetos, Construtoras e engenharias
 5. Galeria de projetos com filtro (cozinhas, banheiros, mesas) e lightbox
 6. Estrutura: processo em 5 etapas, da chapa à peça pronta, com fotos do maquinário
@@ -56,8 +57,7 @@ lp-fechine-marmores/
 └── assets/
     ├── css/style.css
     ├── js/main.js
-    ├── img/             (fotos .webp otimizadas, logos SVG, favicon, og-fechine.jpg)
-    └── video/fechine-estrutura.mp4   (hero, 1,5 MB, sem áudio)
+    └── img/             (fotos .webp otimizadas, logos SVG, favicon, og-fechine.jpg)
 ```
 
 ## Como publicar na Vercel
