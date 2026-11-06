@@ -30,7 +30,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=20261106">
 
 <!-- Google Tag Manager: troque GTM-XXXXXXX pelo ID real (o loader ignora enquanto tiver X) -->
 <script>
@@ -142,14 +142,15 @@
     <div class="cont">
       <h2 id="parceiros-titulo" class="parceiros__titulo reveal">Construtoras que confiam na Fechine</h2>
       <ul class="parceiros__lista reveal">
-        <li>Brasal</li>
-        <li>Attos</li>
-        <li>Tecna</li>
-        <li>Linea G</li>
-        <li>Habitar</li>
-        <li>Lotus</li>
-        <li>Base</li>
-        <li>Apex</li>
+        <li><img style="--h:48px" src="assets/img/parceiros/brasal.webp" alt="Brasal Incorporações" width="118" height="48" loading="lazy"></li>
+        <li><img style="--h:34px" src="assets/img/parceiros/attos.webp" alt="Attos" width="94" height="34" loading="lazy"></li>
+        <li><img style="--h:50px" src="assets/img/parceiros/tecna.webp" alt="Tecna Home" width="80" height="50" loading="lazy"></li>
+        <li><img style="--h:34px" src="assets/img/parceiros/soltec.webp" alt="Soltec Engenharia" width="110" height="34" loading="lazy"></li>
+        <li><img style="--h:50px" src="assets/img/parceiros/lineag.webp" alt="Linea G" width="86" height="50" loading="lazy"></li>
+        <li><img style="--h:30px" src="assets/img/parceiros/habitar.webp" alt="Habitar" width="156" height="30" loading="lazy"></li>
+        <li><img style="--h:32px" src="assets/img/parceiros/lotus.webp" alt="Lotus" width="114" height="32" loading="lazy"></li>
+        <li><img style="--h:40px" src="assets/img/parceiros/base.webp" alt="Base" width="82" height="40" loading="lazy"></li>
+        <li><img style="--h:28px" src="assets/img/parceiros/apex.webp" alt="Apex" width="104" height="28" loading="lazy"></li>
       </ul>
     </div>
   </section>
@@ -198,7 +199,7 @@
         </article>
 
         <article class="painel" role="tabpanel" id="painel-construtora" aria-labelledby="aba-construtora" hidden>
-          <figure class="painel__img"><img src="assets/img/empreendimento.webp" alt="Empreendimento residencial em Brasília" width="1280" height="720" loading="lazy"></figure>
+          <figure class="painel__img"><img src="assets/img/brasal-auster.webp" alt="Empreendimento Auster, da Brasal Incorporações, em Brasília" width="1280" height="855" loading="lazy"></figure>
           <div class="painel__txt">
             <h3>Estrutura de fornecedor de obra grande</h3>
             <p>Há anos a Fechine fornece e beneficia pedras para grandes construtoras de Brasília. Estrutura física ampliada e maquinário moderno para atender volume com qualidade.</p>
@@ -223,12 +224,14 @@
           <button class="filtro is-ativo" data-filtro="todos" aria-pressed="true">Todos</button>
           <button class="filtro" data-filtro="cozinha" aria-pressed="false">Cozinhas</button>
           <button class="filtro" data-filtro="banheiro" aria-pressed="false">Banheiros</button>
+          <button class="filtro" data-filtro="gourmet" aria-pressed="false">Áreas gourmet</button>
           <button class="filtro" data-filtro="mesa" aria-pressed="false">Mesas</button>
+          <button class="filtro" data-filtro="empreendimento" aria-pressed="false">Empreendimentos</button>
         </div>
       </div>
 
       <div class="galeria">
-        <button class="foto foto--alta" data-cat="cozinha" data-src="assets/img/cozinha-bancadas.webp"><img src="assets/img/cozinha-bancadas.webp" alt="Cozinha com bancadas em pedra cinza e pendentes" width="1050" height="1400" loading="lazy"></button>
+        <button class="foto foto--alta" data-cat="cozinha" data-src="assets/img/cozinha-ilha-quartzo-cinza.webp"><img src="assets/img/cozinha-ilha-quartzo-cinza.webp" alt="Cozinha com ilha em dois níveis revestida em pedra cinza" width="1024" height="1280" loading="lazy"></button>
         <button class="foto foto--larga" data-cat="cozinha" data-src="assets/img/cozinha-planejada.webp"><img src="assets/img/cozinha-planejada.webp" alt="Cozinha planejada com ilha em pedra natural" width="1400" height="933" loading="lazy"></button>
         <button class="foto" data-cat="banheiro" data-src="assets/img/lavatorio-travertino-1.webp"><img src="assets/img/lavatorio-travertino-1.webp" alt="Bancada de lavatório em travertino" width="1050" height="1400" loading="lazy"></button>
         <button class="foto" data-cat="mesa" data-src="assets/img/mesa-quartzito.webp"><img src="assets/img/mesa-quartzito.webp" alt="Mesa de jantar oval em pedra natural com veios" width="1080" height="1080" loading="lazy"></button>
@@ -237,6 +240,14 @@
         <button class="foto" data-cat="cozinha" data-src="assets/img/bancada-ilha-escura.webp"><img src="assets/img/bancada-ilha-escura.webp" alt="Ilha revestida em pedra escura" width="1050" height="1400" loading="lazy"></button>
         <button class="foto foto--larga" data-cat="cozinha" data-src="assets/img/cozinha-ilha.webp"><img src="assets/img/cozinha-ilha.webp" alt="Cozinha com ilha em pedra e cooktop" width="1400" height="933" loading="lazy"></button>
         <button class="foto" data-cat="banheiro" data-src="assets/img/lavatorio-travertino-3.webp"><img src="assets/img/lavatorio-travertino-3.webp" alt="Lavatório com bancada em pedra e cuba branca" width="1050" height="1400" loading="lazy"></button>
+        <button class="foto foto--larga" data-cat="banheiro" data-src="assets/img/lavatorio-triplo-granito.webp"><img src="assets/img/lavatorio-triplo-granito.webp" alt="Bancada suspensa em granito preto e branco com três cubas e iluminação embutida" width="1280" height="960" loading="lazy"></button>
+        <button class="foto foto--larga" data-cat="empreendimento" data-src="assets/img/brasal-reserva-mykonos.webp"><img src="assets/img/brasal-reserva-mykonos.webp" alt="Empreendimento Reserva Mykonos, da Brasal Incorporações" width="1280" height="542" loading="lazy"></button>
+        <button class="foto foto--alta" data-cat="banheiro" data-src="assets/img/lavabo-granito-iluminado.webp"><img src="assets/img/lavabo-granito-iluminado.webp" alt="Lavabo revestido em granito com bancada iluminada" width="961" height="1280" loading="lazy"></button>
+        <button class="foto" data-cat="empreendimento" data-src="assets/img/recepcao-granito-ripado.webp"><img src="assets/img/recepcao-granito-ripado.webp" alt="Balcão de recepção ripado em granito dourado com parede na mesma pedra" width="1209" height="1280" loading="lazy"></button>
+        <button class="foto foto--alta" data-cat="gourmet" data-src="assets/img/espaco-gourmet-mesa.webp"><img src="assets/img/espaco-gourmet-mesa.webp" alt="Espaço gourmet com bancada e mesa em pedra clara" width="767" height="1280" loading="lazy"></button>
+        <button class="foto foto--alta" data-cat="banheiro" data-src="assets/img/banheiro-coletivo-bancada.webp"><img src="assets/img/banheiro-coletivo-bancada.webp" alt="Bancada contínua em pedra bege para banheiro coletivo" width="1241" height="1268" loading="lazy"></button>
+        <button class="foto foto--alta" data-cat="gourmet" data-src="assets/img/gourmet-cooktop-bancada.webp"><img src="assets/img/gourmet-cooktop-bancada.webp" alt="Área gourmet com ilha de cooktop e bancada em pedra com veios" width="767" height="1280" loading="lazy"></button>
+        <button class="foto" data-cat="gourmet" data-src="assets/img/gourmet-bancada-chopeira.webp"><img src="assets/img/gourmet-bancada-chopeira.webp" alt="Bancada gourmet em pedra escura com cuba e chopeira" width="767" height="1280" loading="lazy"></button>
         <button class="foto" data-cat="mesa" data-src="assets/img/mesa-externa-2.webp"><img src="assets/img/mesa-externa-2.webp" alt="Detalhe de mesa redonda em pedra" width="1050" height="1400" loading="lazy"></button>
       </div>
       <p class="projetos__rodape reveal">Gostou de algum? <a href="#orcamento" class="link" data-track="cta_projetos">Peça um orçamento parecido</a></p>
@@ -259,8 +270,8 @@
         </ol>
       </div>
       <div class="estrutura__fotos">
-        <figure class="reveal"><img src="assets/img/maquina-disco-1.webp" alt="Disco de corte da máquina automatizada sobre a chapa" width="1050" height="1400" loading="lazy"></figure>
-        <figure class="reveal"><img src="assets/img/maquina-painel.webp" alt="Painel de comando da máquina de corte" width="1050" height="1400" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/fabrica-galpao-chapas.webp" alt="Galpão da fábrica da Fechine com chapas de pedra e ponte rolante" width="1280" height="720" loading="lazy"></figure>
+        <figure class="reveal"><img src="assets/img/corte-disco-marmore-verde.webp" alt="Disco de mármore verde recém-cortado na máquina automatizada" width="968" height="1280" loading="lazy"></figure>
         <figure class="reveal"><img src="assets/img/acabamento-artesao.webp" alt="Profissional da Fechine fazendo o acabamento de uma peça" width="1050" height="1400" loading="lazy"></figure>
       </div>
     </div>
@@ -292,7 +303,7 @@
   <!-- FUNDADOR -->
   <section class="fundador" aria-label="Palavra do fundador">
     <div class="cont fundador__grid">
-      <figure class="fundador__img reveal"><img src="assets/img/lavatorio-travertino-2.webp" alt="Detalhe de bancada em pedra com metais dourados" width="1050" height="1400" loading="lazy"></figure>
+      <figure class="fundador__img reveal"><img src="assets/img/junior-fechine.webp" alt="Júnior Fechine, diretor geral da Fechine Mármores, em frente a uma chapa de granito" width="853" height="1280" loading="lazy"></figure>
       <blockquote class="fundador__citacao reveal">
         <p>Estou no segmento de mármores há mais de 30 anos, sendo os últimos 18 à frente da Fechine. Nosso propósito sempre foi entregar excelência aos nossos clientes, com pontualidade e qualidade.</p>
         <footer><strong>Júnior Fechine</strong><span>Diretor geral da Fechine Mármores</span></footer>
