@@ -31,7 +31,9 @@ Produto: Método Stones High Ticket. Contrato de 30/09/2026 a 30/03/2027 (renova
 1. Topo fixo com logo, navegação e CTA
 2. Hero com foto de projeto (cozinha planejada) e headline "Marmoraria de alto padrão perto de você, em Brasília"
 3. Faixa de fatos: +30 anos do fundador, prazo de 10 a 15 dias, fábrica própria automatizada, Pix/cartão/dinheiro
-3.1. Parceiros: construtoras de Brasília (por enquanto em texto; trocar pelos logos quando chegarem os arquivos)
+3.1. Parceiros: logos das construtoras de Brasília em `assets/img/parceiros/` (monocromáticos em grafite, ganham opacidade no hover)
+   - Logos oficiais (baixados do site de cada empresa): Brasal Incorporações, Tecna Home e Soltec Engenharia.
+   - **Provisórios** (recriados como wordmark porque o site oficial não estava acessível): Attos, Linea G, Habitar, Lotus, Base e Apex. Pedir ao cliente os arquivos originais (SVG/PNG) e substituir mantendo o mesmo nome de arquivo.
 4. Abas por público: Sua casa, Arquitetos, Construtoras e engenharias
 5. Galeria de projetos com filtro (cozinhas, banheiros, mesas) e lightbox
 6. Estrutura: processo em 5 etapas, da chapa à peça pronta, com fotos do maquinário
